@@ -1,0 +1,32 @@
+Testing 0.mat with method ST
+The 11 x 7 matrix is not totally unimodular with violator of size 8.
+Testing 1.mat with method ST
+The 19 x 39 matrix is not totally unimodular with violator of size 3.
+Testing 0.mat with method CE
+The 11 x 7 matrix is totally unimodular.
+Testing 1.mat with method CE
+The 19 x 39 matrix is not totally unimodular.
+Testing 0.mat with method DT
+The 11 x 7 matrix is totally unimodular.
+Testing 1.mat with method DT
+The 19 x 39 matrix is not totally unimodular.
+Testing 0.mat with method DT+V
+
+The 11 x 7 matrix is totally unimodular.
+
+Testing 1.mat with method DT+V
+
+The 19 x 39 matrix is not totally unimodular.
+
+The violating submatrix (det = -2) is 4 x 4:
+
+   1   1   0   0
+   1   1   1   1
+   0   1   1   0
+   0   1   0   1
+
+Row indices in range [0,18]:
+2 6 7 9
+
+Column indices in range [0,38]:
+10  13  18  19 
