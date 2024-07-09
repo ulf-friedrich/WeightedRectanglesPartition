@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for SIZE in {0..99}; do
+  #start=$(date +%s%N)
+  #./run DT ${SIZE}.mat 
+  ~/Desktop/cmr/build/cmr-balanced ~/Desktop/WeightedRectanglesPartition/matricesToTest/${SIZE}.mat -s
+  #unimodularity-test -t -q matricesToTest/${SIZE}.mat 
+  #end=$(date +%s%N)
+  #duration=$((end - start))
+  #echo "Execution time was ${duration} nanoseconds."
+done #> outputBal.txt 2>&1

@@ -1,9 +1,0 @@
-#!/bin/bash
-
-for SIZE in {0..99}; do
-  start=`date +%s%N`
-  #./run DT ${SIZE}.mat 
-  unimodularity-test -t -q matricesToTest/${SIZE}.mat 
-  end=`date +%s%N`
-  echo Execution time was `expr $end - $start` nanosecondseconds.
-done
